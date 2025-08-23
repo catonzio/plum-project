@@ -3,4 +3,4 @@
 	url = https://github.com/catonzio/plum-backend.git
 [submodule "plum-frontend"]
 	path = plum-frontend
-	url = https://github.com/catonzio/plum-backend.githttps://github.com/catonzio/plum-frontend.git
+	url = https://github.com/catonzio/plum-frontend.git
