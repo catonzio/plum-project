@@ -1,0 +1,5 @@
+.env
+plum-backend-models/
+postgres_data/
+qdrant_data/
+
