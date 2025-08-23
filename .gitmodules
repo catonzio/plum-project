@@ -1,6 +1,6 @@
 [submodule "plum-backend"]
 	path = plum-backend
-	url = https://github.com/catonzio/plum-backend.git
+	url = git@github.com:catonzio/plum-backend.git
 [submodule "plum-frontend"]
 	path = plum-frontend
-	url = https://github.com/catonzio/plum-frontend.git
+	url = git@github.com:catonzio/plum-frontend.git
