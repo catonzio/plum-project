@@ -8,6 +8,7 @@ services:
     container_name: plum-reverse-proxy
     volumes:
       - ./reverse-proxy/default.conf:/etc/nginx/conf.d/default.conf
+      - ./reverse-proxy/chatbot.html:/trial-page/chatbot.html
       # - ./reverse-proxy/certificate/fullchain.pem:/etc/nginx/danilocatone.duckdns.org.crt
       # - ./reverse-proxy/certificate/privkey.pem:/etc/nginx/danilocatone.duckdns.org.key
     ports:
@@ -99,7 +100,7 @@ services:
     env_file:
       - ./.env
     environment:
-      - SCRIPT_NAME=pgadmin
+      - SCRIPT_NAME=/pgadmin
     #   - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
     #   - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
     ports:
